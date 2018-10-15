@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+.app-model-backdrop {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.app-model {
+    width: 400px;
+    background-color: #fff; 
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.app-model-header {
+    height:40px;
+    color:#fff;
+    background-color: dodgerblue;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: move;
+}
+.app-model-body {
+    padding: 5px 10px;
+    min-height: 200px;
+}
+
+.app-model-footer {
+    height:40px;
+    padding: 5px 10px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}

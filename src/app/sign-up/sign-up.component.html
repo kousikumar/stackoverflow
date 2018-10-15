@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand">stack<span class="overflow">overflow</span></a>
+    </div>
+      <ul class="navbar  navbar-nav navbar-right">
+         
+          <li class="login"><a style="text-decoration:none" routerLink="/log-in" ><span class="glyphicon glyphicon-log-in"></span><font type="click" color="green"> Log In</font></a></li>
+      </ul>
+</div>
+</nav>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<div class=container>
+<div class="container1">
+  <a class="image"><i class="fas fa-edit"></i></a>
+    <h1 class="h">Sign-Up Form</h1><br>
+  
+    <form>  
+        <div class="form-group">
+        <label class="input">Full Name*:</label>
+        <input #f class="form-control" type="text" placeholder="Enter Name"id="FullName" required [(ngModel)]="signup.fullname" name="FullName" >
+      </div>
+        <div class="form-group">
+            <label class="input">Username*:</label><br>
+            <input #u class="form-control"  type="text" placeholder="Enter UserName" id="email" required [(ngModel)]="signup.username" name="username" >
+            
+          </div>
+          <div class="form-group">
+              <label class="input">Password*:</label>
+            <input  #p class="form-control" type="password" placeholder="Enter Password" id="passsword" required [(ngModel)]="signup.password" name="Password" >
+            
+          </div>
+            <button   class="btn btn-success" (click)="response();f.value='';u.value='';p.value=''">Submit</button>
+          </form>
+    
+    <div class="modal" role="dialog"  [ngStyle]="{'display':display}">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" aria-label="Close" (click)="onCloseHandled()"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+              <p *ngIf="submit;else sign"class="p" style="text-align:center">You should enter details</p>
+              <ng-template #sign class="p" style="text-align:center">Successfully SignUP</ng-template>
+            </div>
+          </div>
+        
+        </div> 
+   
+
+
+

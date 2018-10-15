@@ -1,0 +1,211 @@
+.container{
+    position: relative;
+    margin: 0 auto;
+    top:0.1px;
+    right:210px;
+    border:1px solid rgb(221, 206, 206);
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top-color:white;
+   right:130px;
+  
+}
+.question-row{
+    margin-left:100px;
+    margin-top:72px;
+    margin-bottom:10px;
+    left:40px;
+color:rgb(28, 154, 177);
+
+    
+}
+
+.user{
+    
+    color:green;
+    left:400px;
+    margin-left:10px;
+
+   
+}
+.timerow{
+    position:absolute;
+    margin-right:20px;
+    left:330px;
+    
+    
+}
+.btn-info{
+    position:absolute;
+    top:18px;
+    left:890px;
+    margin-top:12px
+}
+
+hr{
+
+    position: absolute;
+left:0px;
+    width:100%;
+    border:0.5px solid rgb(228, 229, 231); 
+    margin-top:42px;
+}
+.h3{
+    margin-top:30px
+}
+
+.font{
+    font-size:20px;
+    color:black;
+}
+
+.modal{
+    position:fixed;
+    top:300px;
+   
+  
+}
+.modal-body{
+    width:360px;
+   
+}
+.modal-dialog{
+    width:350px;
+}
+
+.container1{
+    position:absolute;
+    top:84px;
+    width:10px;
+    border:1px solid white;
+    padding:200px 110px 0px 95px;
+}
+
+
+.postedhistory{
+    position:absolute;
+    top:100px;
+    left:60px;
+    color:green;
+}.logout{
+    position:absolute;
+    top:130px;
+    left:70px;
+    border:1px solid white;
+    background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container1{
+    position:absolute;
+    border:1px solid blue;
+    background-color:rgb(75, 84, 207);
+    
+    top:67px;
+    padding:119px
+} */
+/* .container {
+    position:absolute;
+    border:1px solid black;
+    width:768px;
+    left:100px;
+  top : 100pxpx;   
+  
+      
+}  */
+.btn-primary{
+    position: absolute;
+    top:40px;
+    left:900px;
+    width:130px;
+    height:40px;
+    background-color:rgb(72, 72, 223);
+    
+}
+.Top{
+    position: absolute;
+    top:18px;
+    left:10px;
+    font-size:35px
+    
+}
+.hline{
+
+position: absolute;
+left:0px;
+top:80px;
+    width:62.5%;
+    border:0.5px solid rgb(122, 127, 136); 
+}
+.q-container{
+    position: absolute;
+    border:1px solid white;
+    top:110px;
+    left:300px;
+    padding:0px 300px
+}
+.questions{
+    position: relative;
+    right:300px;
+    width:208px;
+    font-size:20px;
+    color:rgb(21, 147, 219);
+}
+
+    
+    .backdrop{ 
+
+        position: absolute;
+        top:90px;
+        left:500px;
+        width:40%;
+        height:15vh;
+        
+        }
+        .modal-dialog{
+            width:1000x;
+        }
+        .p{
+            font-size: 40px
+        }
+        .posted{
+            /* position: relative;
+            left: 220px;
+            font-size:15px;
+            width:10px; */
+            color:green
+        }
+        .date-time{
+            position: absolute;
+            left:400px;
+            font-size:15px;
+            width:150px;
+            color:rgb(85, 81, 81);
+        }
+        

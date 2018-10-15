@@ -1,0 +1,95 @@
+
+.container{
+    position:  absolute;
+    top : 200px;
+
+    left: 680px;
+    width:400px;
+    height:300px;
+    padding:100px 350px 400px 100px;
+     border-radius: 10%; 
+    
+    border:1px solid rgb(18, 21, 228);
+     background-color: white;
+}
+.html{
+    position:  absolute;
+    background:url(../images/book1.jpg);
+    width:1420px;
+    height:720px;
+    left: 2000px;
+    padding:0px 0px 00px 0px;
+    
+} 
+.form-control{
+    width:250px;
+}.h{
+    position:relative;
+    left:60px;
+    font-size: 40px;
+width:550px;
+     border-radius: 10%; 
+    /* text-align: center; */
+}
+
+    .ng-valid[required], .ng-valid.required  {
+        border-left: 5px solid #42A948; 
+      }
+      
+      .ng-invalid:not(form)  {
+        border-left: 5px solid #a94442; 
+      }
+  
+    .modal-dialog{
+        width:1000x;
+    }
+    .p{
+        font-size: 20px
+    }
+    .name{
+        font-size: 40px  
+    } 
+    .btn-success{
+        padding:7px 0px 7px 0px;
+        width:250px;
+    }    
+    .image{
+        position: absolute;
+        top:0px;
+        left:180px;
+        font-size:90px;
+    }
+    .container{
+        position:  absolute;
+      }
+      .navbar-default{
+    
+        padding:5px;
+    }
+    .navbar-brand{
+        font-size:30px;
+    }
+    .overflow{
+        font-weight: bold;
+    }
+    .glyphicon-log-in{
+        color:green;
+    }
+    .glyphicon-user{
+        color: blue
+        }
+    .user{
+        position:relative;
+        right:40px;
+        margin-top:12px;
+        font-size:17px;
+        color:rgb(241, 241, 255);
+    }
+    .modal{
+        position: fixed;
+        top:400px;
+        right:50px;
+      }
+      .modal-dialog{
+        width:400px;
+      }

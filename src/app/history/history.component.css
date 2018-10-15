@@ -1,0 +1,147 @@
+.navbar-default{
+    
+    padding:5px 20px 0px 00px;
+    margin-bottom:0px;
+}
+.navbar-brand{
+    font-size:30px;
+}
+.overflow{
+    font-weight: bold;
+}
+.user1{
+    position:relative;
+    right:40px;
+    font-size:17px;
+    color:rgb(241, 241, 255);
+    margin-top:12px;
+  
+}
+.login{
+    position:relative;
+    right:20px;
+    font-size:17px;
+    color:rgb(252, 251, 250);
+    margin-top:10px;
+ 
+}
+.glyphicon-user{
+color: blue
+}
+.glyphicon-log-in{
+    color:green;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    top:0.1px;
+    right:210px;
+    border:1px solid rgb(221, 206, 206);
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top-color:white;
+   right:130px;
+  
+}
+.question-row{
+    margin-left:100px;
+    margin-top:72px;
+    margin-bottom:10px;
+    left:40px;
+color:rgb(28, 154, 177);
+
+    
+}
+
+.user{
+    
+    color:green;
+    left:400px;
+    margin-left:10px;
+
+   
+}
+.timerow{
+    position:absolute;
+    margin-right:20px;
+    left:330px;
+    
+    
+}
+.btn-info{
+    position:absolute;
+    top:18px;
+    left:890px;
+    margin-top:12px
+}
+
+hr{
+
+    position: absolute;
+left:0px;
+    width:100%;
+    border:0.5px solid rgb(228, 229, 231); 
+    margin-top:42px;
+}
+.h3{
+    margin-top:30px
+}
+
+.font{
+    font-size:20px;
+    color:black;
+}
+
+.modal{
+    position:fixed;
+    top:300px;
+   
+  
+}
+.modal-body{
+    width:360px;
+   
+}
+.modal-dialog{
+    width:350px;
+}
+.name-container{
+    
+    position:absolute;
+    border:1px solid rgb(250, 242, 242);
+    left:1620px;
+    border-radius: 50%;
+    background-color: rgb(146, 127, 127);
+    width:30px;
+    top:9px;
+    padding:20px;
+}
+.username{
+    position:absolute;
+    color:white;
+    top:5px;
+    left:12px;
+    font-size: 25px;
+}
+.container1{
+    position:absolute;
+    top:80px;
+    right:1170px;
+    width:10px;
+    border:1px solid white;
+    padding:200px 110px 0px 95px;
+}
+.home{
+    position:absolute;
+    width:0px; 
+    left:80px;
+    top:40px;
+}
+
+.logout{
+    position:absolute;
+    top:70px;
+    left:70px;
+    border:1px solid white;
+    background-color:white;
+}

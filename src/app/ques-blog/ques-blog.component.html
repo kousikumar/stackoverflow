@@ -1,0 +1,160 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand">stack<span class="overflow">overflow</span></a>
+    </div>
+    <div class="name-container">
+      <p class="username">{{usernameservice.username.substring(1,0)| uppercase}}</p>
+      </div>    
+</div>
+</nav>
+<div class="container">
+  <div class='row'>
+    
+    <div class="coloumn-lg-12">
+      <div class="how-row">
+      <h4 class="h4">How to Ask</h4></div>
+      <hr >
+    </div>
+  </div>
+<div class='row'>
+    <div class="coloumn-lg-12">
+      <div class="text-row">
+          <p>Welcome to Stack Overflow!</p>
+          <p>We’d love to help you, but the reality is that not every question gets answered. To improve your chances, here are some tips:</p>
+          <h5 class="h3">Search,and research</h5>
+          <p class="p3">Have you thoroughly searched for an answer before asking your  question?  Sharing your research helps everyone. Tell us what you found (on this site or elsewhere) and why it didn’t meet your needs. This demonstrates that you’ve taken the time to try to help yourself, it saves us from reiterating obvious answers, and above all, it helps you get a more specific and relevant answer!</p>
+          <input #s class="search-txt" placeholder="type to search">
+          <button type="button" class="btn btn-success" (click)="search(s); s.value=''">search</button>
+          <div *ngIf="C">  
+            <a class="searchanswer" style="text-decoration:none" routerLink="/answers/{{searchid}}">{{searchq}}</a></div>
+          </div>
+  </div>
+  </div>
+
+  <div class='row'>
+      <div class="coloumn-lg-12">
+        <div class='ask-row'>
+            <h3 class="askquestion">Ask a question</h3>
+            <h4 class="title">Title</h4>
+            <input #t class="titleinput" [(ngModel)]="question.q">
+
+            <h4 class="body">Body</h4>
+            <textarea class="textarea" #q rows="20" cols="10"  [(ngModel)]="question.body"></textarea><br>
+            <button  class="btn btn1-success" type="submit"(click)="add(q.value); q.value='';t.value=''">Post Your Question</button>
+            <button class="btn btn-danger"  (click)="q.value='';t.value=''">Discard</button>
+          </div>
+      </div>
+
+  </div>
+</div>
+<div class="container1">
+    <a style="text-decoration:none" routerLink="/firstpage" class="home">Home</a>
+    <a class="postedhistory" style="text-decoration:none" routerLink="/history">History</a>
+    <button   class="logout" (click)="Logout()">Log Out</button>
+  
+  </div>
+
+
+
+
+<!-- <div class="name-container">
+<p class="username">{{usernameservice.username.substring(1,0)| uppercase}}</p>
+</div>
+</nav>
+<div class="container">
+  <h2 class="h">How to Ask</h2>
+  <hr class="line">
+<p class="text">Welcome to Stack Overflow!</p>
+<p class="text1">We’d love to help you, but the reality is that not every question gets answered. To improve your chances, here are some tips:</p>
+<h3 class="h3">Search,and research</h3>
+<p class="p3">Have you thoroughly searched for an answer before asking your  question?  Sharing your research helps everyone. Tell us what you found (on this site or elsewhere) and why it didn’t meet your needs. This demonstrates that you’ve taken the time to try to help yourself, it saves us from reiterating obvious answers, and above all, it helps you get a more specific and relevant answer!</p>
+<input #s class="search-txt" placeholder="type to search">
+<button type="button" class="btn btn-success" (click)="search(s); s.value=''">search</button>
+<div *ngIf="C">  
+  <a class="searchanswer" style="text-decoration:none" routerLink="/answers/{{searchid}}">{{searchq}}</a>
+  </div>
+  <h3 class="askquestion">Ask a question</h3>
+  <hr class="qline">
+  <h4 class="title">Title</h4>
+  <input #t class="titleinput" [(ngModel)]="question.q">
+  <h4 class="body">Body</h4>
+  <textarea class="textarea" #q rows="20" cols="10"  [(ngModel)]="question.body"></textarea>
+  <button  class="btn btn1-success" type="submit"(click)="add(q.value); q.value='';t.value=''">Post Your Question</button>
+  <button class="btn btn-danger" (click)="q.value='';t.value=''">Discard</button>
+</div>
+<div class="container1">
+  <a style="text-decoration:none" routerLink="/firstpage" class="home">Home</a>
+  <a class="profile" style="text-decoration:none" routerLink="/profile">Profile</a>
+  <a class="postedhistory" style="text-decoration:none" routerLink="/history">History</a>
+  <button   class="logout" (click)="Logout()">Log Out</button>
+
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container1">
+<div class="container">
+  <span class="logut">
+      <button type="button"  class="button" (click)="Logout()">LogOut</button></span>
+
+<div class="name" align="center" > Wellcome {{usernameservice.username}}</div>
+</div>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<h2>How to Ask</h2>
+<hr>
+<p class="tips-width">Welcome to Idea Share!<br/><br/><span class="tips-width">We’d love to help you, but the reality is that not every question gets answered. To improve your chances, here are some tips:</span><br/><span><h3>search</h3>
+  <span class="tips-width">Have you thoroughly searched for an answer before asking your question? Sharing your research helps everyone. Tell us what you found (on this site or elsewhere) and why it didn’t meet your needs. This demonstrates that you’ve taken the time to try to help yourself, it saves us from reiterating obvious answers, and above all, it helps you get a more specific and relevant answer!</span></span></p><br/><br/>
+
+<div class="search-box">
+<input #s class="search-txt" placeholder="type to search">
+<div class="search-btn" href="#" >
+    <i class="fas fa-search" (click)="search(s); s.value=''"></i> </div>
+</div><br/><br/>
+<div *ngIf="C">  
+    <p>{{searchq}}</p>
+      <a routerLink="/answers/{{searchid}}">View</a></div>
+<div class="backdrop" [ngStyle]="{'display':display}">
+
+        <div class="modal" role="dialog"  [ngStyle]="{'display':display}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" aria-label="Close" (click)="onCloseHandled()"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <p class="p" style="text-align:center">Not Found</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<p class="size">Ask a question</p>
+<hr class="hline"><br/><br/>
+  <div align = "center">
+<textarea #q rows="20" cols="10" class="input" [(ngModel)]="question.q"></textarea></div><br/>
+<button  class="ques-button" (click)="add(q.value); q.value=''">
+    Post Question 
+  </button><span><button class="Discard" (click)="q.value=''">Discard</button></span><br><br/><br/>
+<br/>
+  <div  *ngFor="let qdatas of qdata">
+      <p style="text-align:center" class="w3-input">{{qdatas.q}}<br/>views-{{qdatas.views}}<a routerLink="/answers/{{qdatas.id}}"> Comment Answer</a>:::<a routerLink="/answers/{{qdatas.id}}" >View</a></p>
+      <p class="date-time">Posted Date&time<br/>date:-{{qdatas.date1}}  Time:-{{qdatas.time}}</p><span><p class="posted">Posted By_{{qdatas.posteduser}}</p></span>
+</div>
+</div> -->
+

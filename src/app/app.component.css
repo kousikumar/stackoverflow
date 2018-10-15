@@ -1,0 +1,126 @@
+/* .container{
+    position:relative;
+
+    /* top:20px;
+    left:50px;
+    width:1170px; */
+/* }
+.col{
+    padding:px;
+} */ 
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+
+.navbar-default{
+    
+    padding:5px 20px 0px 00px;
+    margin-bottom:0px;
+}
+.navbar-brand{
+    font-size:30px;
+}
+.overflow{
+    font-weight: bold;
+}
+.user{
+    position:relative;
+    right:40px;
+    font-size:17px;
+    color:rgb(241, 241, 255);
+    margin-top:12px;
+}
+.login{
+    position:relative;
+    right:20px;
+    font-size:17px;
+    color:rgb(252, 251, 250);
+    margin-top:10px;
+ 
+}
+.glyphicon-user{
+color: blue
+}
+.glyphicon-log-in{
+    color:green;
+}
+.modal-dialog{
+top:100px;
+    width:30%;
+    
+}
+  .name-container{
+    
+        position:absolute;
+        border:1px solid rgb(250, 242, 242);
+        left:1620px;
+        border-radius: 50%;
+        background-color: rgb(146, 127, 127);
+        width:30px;
+        top:9px;
+        padding:20px;
+    }
+    .username{
+        position:absolute;
+        color:white;
+        top:5px;
+        left:12px;
+        font-size: 25px;
+    }
+.form-control{
+    width:480px;
+}
+.btn-success{
+    padding:7px 0px 7px 0px;
+    width:480px;
+    color:white;
+}    
+.modal-body{
+    left:00px;
+    width:480px;
+    
+
+}
+.fa-user{
+    position: relative;
+    left:200px;
+    width:50;
+
+}
+
+
+.close{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color:#000000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+.btn-default{
+    background-color:red;
+    color:white;
+    width:80px;
+    padding:7px 0px 7px 0px;
+}
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; 
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; 
+  }
+  .label{
+
+      font-size:15px; 
+      color:black;
+  }
+
+  .modal-dialog{
+    width:3000x;
+}
+    

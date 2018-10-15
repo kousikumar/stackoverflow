@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand">stack<span class="overflow">overflow</span></a>
+    </div>
+      <ul class="navbar  navbar-nav navbar-right">
+          <li class="user"><a style="text-decoration:none" routerLink="/sign-up"><span class="sign-up" class="glyphicon glyphicon-user"></span><font color="blue"> Sign Up</font></a></li>    
+      </ul>
+</div>
+</nav>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+<div class="name" align="right">  {{usernameservice.username}}</div>
+<div class="container">
+<div class="container1">
+    <a class="image"><i class="fas fa-user"></i></a>
+    <h1 class="h">Log In</h1><br>
+  
+    <form>  
+        <div class="form-group">
+            
+            <label for="Email">Username*:</label><br/>
+            <input  class="form-control" type="text" placeholder="Enter Email" id="Email" required  [(ngModel)]="login.username" name="username" #username="ngModel">
+          </div>
+          <div class="form-group">
+              <label for="password">Password*:</label>
+              <input  class="input" class="form-control" type="password" placeholder="Enter Password"  id="Password"  [(ngModel)]="login.password" name="Password" passwors="ngModel" required>
+              
+            </div>
+            <button  class="btn btn-success" type="btn btn-primary" (click)="response()"><a style="text-decoration:none" routerLink="/ques-blog">LogIn</a></button>
+          </form>
+            
+    <div class="backdrop" [ngStyle]="{'display':display}">
+
+        <div class="modal" role="dialog"  [ngStyle]="{'display':display}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" aria-label="Close" (click)="onCloseHandled()"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <p class="p" style="text-align:center">You should enter correct details</p>
+      </div>
+    </div>
+        </div>
+       </div>
+      
+      </div>

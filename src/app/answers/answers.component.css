@@ -1,0 +1,387 @@
+.navbar-default{
+    padding:5px 20px 0px 0px;
+    margin-bottom:0px
+}
+.navbar-brand{
+    font-size:30px;
+}
+.overflow{
+    font-weight: bold;
+}
+.user{
+    position:relative;
+    right:40px;
+    margin-top:15px;
+    font-size:17px;
+    color:rgb(241, 241, 255);
+} 
+.login{
+    position:relative;
+    right:20px;
+    font-size:17px;
+    color:rgb(252, 251, 250);
+    margin-top:15px;
+ 
+}
+.glyphicon-user{
+    color: blue
+    }
+    .glyphicon-log-in{
+        color:green;
+    }
+    .modal-dialog{
+    top:100px;
+        width:30%;
+        
+    }
+    .name-container{
+    
+        position: relative;
+        border:1px solid rgb(250, 242, 242);
+        left:1620px;
+        border-radius: 50%;
+        background-color: rgb(146, 127, 127);
+        width:30px;
+        top:0px;
+        padding:20px;
+    }
+    .username{
+        position:absolute;
+        color:white;
+        top:5px;
+        left:12px;
+        font-size: 25px;
+    }
+
+.container{
+    position:relative;
+    border:1px solid black;
+    right:140px;
+    border-right:1px solid white;
+    border-top:1px solid white;
+    border-left:1px solid rgb(247, 230, 230);
+    border-bottom:1px solid white;
+
+}
+.question-row{
+    margin-top:25px;
+    font-size: 20px;
+}
+hr{
+    
+    border:0.5px solid rgb(202, 203, 206); 
+    margin-top:20px;
+}
+.body-container{
+    position: absolute;
+    border:0.5px solid rgb(247, 236, 236);
+   }
+.body-row{
+    margin-top:30px;
+    margin-left:100px;
+    margin-right:300px;
+    color:black;
+    background-color:rgb(240, 240, 252);
+    margin-bottom:30px;
+}
+.ans-row{
+    margin-bottom:0px;
+}
+.ansl{
+    margin-bottom:20px;
+    font-size:20px
+}
+.ans{
+    margin-bottom:5px;
+    margin-top:10px;
+    margin-right:300px;
+    color:black;
+    background-color:rgb(240, 240, 252);
+}
+.commented{
+    margin-left:600px;
+}
+.name{
+    color:rgb(104, 197, 189);
+}
+.youranswer{
+   
+    margin-top:20px;
+    margin-left:10px;
+    font-size:20px;
+
+}
+.anstext{
+  
+margin-left:10px;
+margin-top:15px;
+width:840px;
+height:300px;
+}
+.btn-success{
+  
+    margin-top:15px;
+   margin-left:10px;
+   margin-bottom:20px;
+    width:150px;
+    padding:9px;
+    background-color:rgb(17, 147, 170);
+}
+.btn-danger{
+ 
+    width:90px;
+    margin-top:15px;
+    margin-left:10px;
+    margin-bottom:20px;
+    padding:9px;
+}
+.fa-caret-down{
+    position:absolute;
+    top:130px;
+    left:40px;
+    font-size:40px;
+    margin-right:50px;
+    color:rgb(138, 130, 130);
+}
+.fa-caret-up{
+    position:absolute;
+    top:90px;
+    left:40px;
+    font-size:40px;
+    margin-right:50px;
+    color:rgb(138, 130, 130);
+}
+.fa-star{
+    position:absolute;
+    top:170px;
+    left:40px;
+    font-size:20px;
+    margin-right:50px;
+    color:rgb(138, 130, 130);
+}
+
+.container1{
+    position:absolute;
+    top:78px;
+    width:10px;
+    border:1px solid white;
+    padding:200px 96px;
+}
+
+.home{
+    position:absolute;
+    width:0px; 
+    left:80px;
+    top:40px;
+}
+
+.postedhistory{
+    position:absolute;
+    top:70px;
+    left:78px;
+    color:green;
+}
+.logout{
+    position:absolute;
+    top:100px;
+    left:70px;
+    border:1px solid white;
+    background-color:white;
+}
+.question{
+    position:absolute;  
+    top:40px;
+    left:20px; 
+    font-size:25px;
+}
+.line{
+    position:absolute; 
+    top:70px;
+    left:10px;
+    border:0.5px solid rgb(189, 170, 170);
+    width:1000px;
+}
+.body-container{
+    position:absolute; 
+    top:130px;
+    left:95px;
+    width:700px;
+    border:0.5px solid rgb(247, 236, 236);
+    padding:155px
+
+}
+.textarea{
+    position:absolute;
+    top:30px;
+    left:50px;
+    width:600px;
+    background-color:rgba(0, 0, 0, 0.103)
+}
+.answerslen{
+    position:absolute;
+    top:500px;
+    left:10px;
+    font-size: 20px;
+}
+.answersline{
+    position:absolute;
+    top:530px;
+    left:10px;
+    border:0.5px solid rgb(184, 168, 168);
+    width:1000px;
+}
+.notfound{
+    position:absolute;
+    left:500px;
+    top:690px;
+
+}
+.qanswers{
+    position: relative;
+    top:20px;
+    right:0px;
+    width:700px;
+    background-color:rgba(0, 0, 0, 0.103);
+    padding:20px
+
+}
+
+.ansline{
+    position: absolute;
+    left:10px;
+    top:430px;
+    border:0.5px solid black;
+    width:1000px;
+}
+
+
+
+.ans-container-fluid{
+    position:absolute; 
+    top:590px;
+    width:800px;
+    left:10px;
+    border:1px solid black;
+    padding:50px;
+}
+
+
+
+
+
+
+
+
+
+/* .container1{
+    background-color: rgb(236, 247, 244)
+}
+.input{
+    width: 700px;
+    height:200px;
+    }
+    .sollutions{
+        position: relative;
+        font-size:30px;
+        background-color:rgb(206, 224, 42);
+        width :140px;
+        left: 400px;
+        padding: 15px 32px,10px,10px;
+    }
+    .question{
+        font-size:30px;
+    }
+    .answers{
+        position: relative;
+        width:900px;
+        font-size:20px;
+        left: 400px;
+        
+width:1000px
+    }
+    .answers1{
+        position: relative;
+        background-color:rgb(202, 194, 206);
+        font-size:20px;
+        left: 500px;
+        padding:30px;
+    width:1000px
+
+    }
+    .ans-btn{
+        position: absolute;
+    font-size:20px;  
+    left:495px;
+    padding: 15px 32px;
+    background-color:  rgb(10, 198, 223);
+    }
+    .back-btn{
+        background-color:  rgb(27, 180, 116);
+        font-size:20px;
+        padding: 15px 32px;
+    }
+    .size{
+        font-size: 40px;
+    }
+    .hline{
+        border: 1px solid green;
+    }
+    .backdrop{ 
+
+
+        background-color:rgba(20, 207, 82, 0.6);
+        
+       
+        position: absolute;
+        top:1100px;
+        left:400px;
+        width:20%;
+        height:15vh;
+        
+        
+        }
+        .modal-dialog{
+            width:900x;
+        }
+        .p{
+            font-size: 20px
+        }
+       .fas{
+        
+        font-size:60px;
+       }
+       .caret-align{
+        
+        font-size: 20px;
+        padding-left : 10px;
+       }
+       .center{
+           text-align:center;
+          
+       }
+       .username{
+           font-size: 25px;
+
+       }
+       .anspostedname{
+position: relative;
+font-size: 25px;
+left:1100px;
+width:100px
+       }
+       .star{
+           position: relative;
+           left:700px;
+width:100px;
+       }
+       .date-time{
+        position: relative;
+        left: 500px;
+        font-size:25px;
+        width:100px;
+        color:red;
+    }
+    .hline1{
+        border: 2px solid rgb(128, 0, 100);
+    } */
+       
